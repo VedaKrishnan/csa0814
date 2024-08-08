@@ -1,0 +1,11 @@
+Num=int(input())
+onum=num
+Reversed=0
+While num>0:
+      Rem=rem%10
+       Reversed=reversed*10+rem
+       Num//=10
+If onum==reversed:
+     Print(“palindrome”)
+else:
+     print(“not a palindrome”)
