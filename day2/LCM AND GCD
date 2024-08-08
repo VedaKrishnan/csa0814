@@ -1,0 +1,9 @@
+a=int(input())
+b=int(input())
+c=int(input())
+gcdtwo=math.gcd(c,b)
+gcdthree=math.gcd(gcdtwo,c)
+lcmtwo=(a*b)//gcd_two
+lcmthree=(lcmtwo*c)//gcdthree
+print(lcmthree)
+print(gcdthree)
