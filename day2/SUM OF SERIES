@@ -1,0 +1,8 @@
+X=int(input())
+If x<1:
+   Print(“not a valid number”)
+else:
+    t=0
+ for i in range(1,x+1):
+     t+=i**2
+print(“sum of squares from 1 to “,x,”is”,t)
