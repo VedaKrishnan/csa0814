@@ -1,0 +1,6 @@
+Print(“ascii values in upper case”)
+For char in range(65,91):
+            Print(char)
+Print(“ascii values in lower case”)
+ For char in range(97,123):
+       Print(char)
