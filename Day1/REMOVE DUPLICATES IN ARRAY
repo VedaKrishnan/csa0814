@@ -1,0 +1,6 @@
+Arr={1,2,2,3,4,3,5}
+a=list(arr)
+b=set(a)
+print(b)
+OUTPUT
+{1,2,3,4,5}
