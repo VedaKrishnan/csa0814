@@ -1,0 +1,11 @@
+A=int(input())
+B=len(str(a))
+If b%2==0:
+C=a%100
+d=a//100
+e=c+d
+f=e**2
+if f==a:
+    print(“tech no”)
+else:
+   print(“not a tech no”)
