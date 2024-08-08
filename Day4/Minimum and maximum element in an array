@@ -1,0 +1,5 @@
+arr=[3,7,1,9,4,6,5,2]
+min_element=min(arr)
+max_element=max(arr)
+print (f"minimum element:{min_element}")
+print(f"max element:{max_element}")
