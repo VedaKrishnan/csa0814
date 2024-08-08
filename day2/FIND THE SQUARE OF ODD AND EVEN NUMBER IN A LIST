@@ -1,0 +1,10 @@
+def sumofsquare(number):
+      sumsquareodd=0
+     sumsquareeven=0
+for num in number:
+      if num%2==0:
+            sumsquareeven+=num**2
+             sumsquareodd+=num**2
+return sumsquareodd,sumsquareeven
+numbers=[1,2,3,4,5,6,7,8,9,10]
+print(sumofsquare(number))
