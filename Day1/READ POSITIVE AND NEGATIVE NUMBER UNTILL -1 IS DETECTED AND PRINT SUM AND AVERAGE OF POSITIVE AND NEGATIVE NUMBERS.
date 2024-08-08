@@ -1,0 +1,21 @@
+Positivesum=0
+Negativesum=0
+Positivecount=0
+Negativecount=0
+Num=int(input())
+While(num!=-1):
+           If num>0:
+                 Positivesum+=num
+                 Positivecount+=1
+           Else:
+                 Negativesum+=num
+                  Negativecount+=1
+   Num=int(input())
+Print(positivesum)
+Print(negativesum)
+Print(positivecount)
+Print(negativecount)
+Positiveaverage=positivesum/positivecount
+Negativeaverage=negativesum/negativecount
+Print(positiveaverage)
+Print(negativeaverage)
