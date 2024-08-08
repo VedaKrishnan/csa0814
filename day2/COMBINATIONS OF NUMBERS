@@ -1,0 +1,8 @@
+import itertools
+def printcombinations(n):
+          for r in range(1,len(n)+1)
+            comb=itertools.combinations(n,r)
+        for  combo in combination:
+        print(combo)
+  n=[1,2,3]
+print(printcombinations(numbers)
