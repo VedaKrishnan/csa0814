@@ -1,0 +1,10 @@
+Sentence=input()
+Print(sentence.upper())
+Print(sentence.lower())
+Words=sentence.split()
+Print(len(words))
+Word=0
+For word in words:
+If len(word)>0 and word[0]=”a” or word[0]=”A”
+ Word+=1
+Print(word)
