@@ -1,0 +1,6 @@
+Import numpie as p
+A=float(input())
+Print(“square”,a**2)
+Print(“cube”,a**3)
+Print(“squareroot”,p.sqrt(a))
+Print(“cuberoot”,p.cbrt(a))
