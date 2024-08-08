@@ -1,0 +1,8 @@
+def prime(num)
+   return num>1 and all(num%i!=0)
+     for i in range(2,int(num**0.5)+1)
+def genprimenum(start,end):
+   primes=num for num in range(start,end):
+              if prime:
+                   print(prime[0])
+ genprimenum(10,50)
