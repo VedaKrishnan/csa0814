@@ -1,0 +1,3 @@
+Row=int(input())
+For i in range(1,row+1)
+Print(“*”*i)
