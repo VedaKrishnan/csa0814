@@ -1,0 +1,4 @@
+def simpleinterest(principal,time,rate=1):
+      return(principal*rate*time)/100
+ interest=simpleinterest(100,2)
+print(interest)
