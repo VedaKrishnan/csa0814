@@ -1,0 +1,16 @@
+def decimaltobinary(n):
+            return bin(n)[2:]
+def binarytodecimal(b):
+         return int(b,2)
+while True:
+      choice=input(“choose:1.decimal to binary 2.binary to decimal 3.exit”)
+if choice==’1’:
+       num=int(input(“enter decimal number”))
+        print(decimaltobinary(num))
+elif choice==’2’:
+      bnum=input(“enter binary num”)
+     print(binarytodecimal(bnum))
+elif choice==’3’:
+      break
+else:
+    print(“invalid number”)
