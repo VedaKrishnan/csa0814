@@ -1,0 +1,11 @@
+Num=int(input())
+Primecount=0
+Compcount=0
+For i in range(1,n+1):
+     If num%i==0:
+         Primecount+=1
+  Else:
+       Compcount+=1
+             i+=1
+print(primecount)
+print(compcount)
