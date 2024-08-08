@@ -1,0 +1,5 @@
+arr=[3,1,4,5,9,2,6,15,3,5]
+mini=min(arr)
+maxi=max(arr)
+print(“minimum is”,mini)
+print(“maximum is “.maxi)
