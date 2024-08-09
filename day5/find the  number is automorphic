@@ -1,0 +1,14 @@
+num = int(input("Enter a number: "))
+
+
+sq = num ** 2
+
+
+num_str = str(num)
+sq_str = str(sq)
+
+
+if sq_str.endswith(num_str):
+    print("It is automorphic")
+else:
+    print("It is not automorphic")
