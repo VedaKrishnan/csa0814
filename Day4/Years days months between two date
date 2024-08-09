@@ -1,0 +1,21 @@
+
+from datetime import datetime, date
+def date_diff(date1, date2):
+    d1 = datetime.strptime(date1, '%Y-%m-%d')
+    d2 = datetime.strptime(date2, '%Y-%m-%d')
+    delta = d2 - d1
+    days = delta.days
+    years = days // 365
+    months = (days - (years * 365)) // 30
+    return days, months, years
+date1 = '2023-01-01'
+date2 = '2024-08-07'
+days, months, years = date_diff(date1, date2)
+print(f"No. of days: {days}")
+print(f"No. of months: {months}")
+print(f"No. of years: {years}")
+
+OUTPUT:
+No. of days: 584
+No. of months: 7
+No. of years: 1
