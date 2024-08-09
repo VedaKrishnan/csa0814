@@ -9,4 +9,4 @@ print("Pairs that sum up to",target,"is",pairs)
 
 
 OUTPUT:
-Pairs that sum up to 8 is [(2, 6), (4, 4)]
+Pairs that sum up to 8 is [(3, 5), (7, 1)]
