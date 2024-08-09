@@ -1,5 +1,8 @@
-Sen=input()
-w=sen.split()
-l=w[-1]
-length=len(l)
-print(length)
+def length(str):
+  lis=list(str.split())
+  return len(lis[-1])
+str="Call Of Duty"
+print("The length of last word is:", length(str))
+
+Output:
+the length of last word is 4
