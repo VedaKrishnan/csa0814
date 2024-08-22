@@ -1,0 +1,4 @@
+def binary_addititon(a,b):
+return bin(int(a,2)+int(b,2))
+result=binary_addition('1010'+1101)
+print(result)
