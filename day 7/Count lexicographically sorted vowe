@@ -1,0 +1,6 @@
+def countvowelstring(n:int)->int:
+return(n+4)*(n+3)*(n+2)*(n+1)//24
+  print(countvowelstring(2))
+
+Output:
+15
