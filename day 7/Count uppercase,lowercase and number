@@ -1,0 +1,6 @@
+upper,lower,num=0,0,0
+while(s:=input())!='*':
+upper+=sum((is upper() for c in s)
+lower+=sum((is lower() for c in s)
+num+=sum((is digit() for c in s)
+print(f"uppercase:{upper}.lowercase:{lower}.numbers:{num}")
