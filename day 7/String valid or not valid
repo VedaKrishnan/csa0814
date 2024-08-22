@@ -1,0 +1,5 @@
+
+def is_valid_string(s):
+return s.isalnum()
+print(is_valid_string("Hello"))
+print(is_notvalid_string("World"))
