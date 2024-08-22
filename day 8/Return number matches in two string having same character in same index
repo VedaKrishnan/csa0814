@@ -1,0 +1,9 @@
+def count_matches(s1,s2):
+return sum(x==y for x,y in zip(s1,s2))
+s1="sasa"
+s2="sasi"
+result=count_matches(s1,s2)
+print("Number of matches:{result}")
+
+Output:
+3
