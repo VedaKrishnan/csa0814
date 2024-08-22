@@ -1,0 +1,13 @@
+lst=[1,2,3,4,4,5,4,6]
+target=4
+if target in lst:
+start_pos=lst.index(target)
+end_pos=len(lst)_1_lst[::-1].index(target)
+print(start_pos)
+print(end_pos)
+else:
+print("target element not found in the list")
+
+Output:
+4
+6
