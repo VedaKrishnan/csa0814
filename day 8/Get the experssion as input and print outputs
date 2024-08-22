@@ -1,7 +1,0 @@
-a=input("Enter an experssion:")
-b=eval(a)
-print("result=",b)
-
-Input:2+3*4-5
-Output:
-result=9
