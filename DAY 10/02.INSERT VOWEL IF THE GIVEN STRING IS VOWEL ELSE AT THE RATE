@@ -1,0 +1,8 @@
+s = "welcome"
+result = ''
+for c in s:
+    if c in 'aeiou': 
+        result += c + '^'  
+    else:
+        result += c + '@'  
+print("Transformed String:", result)
