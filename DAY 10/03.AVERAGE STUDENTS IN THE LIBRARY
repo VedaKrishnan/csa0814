@@ -1,0 +1,24 @@
+
+E=[]
+L=[]
+total=0
+p=0
+t=int(input("Enter the time in hours:"))
+for i in range(t):
+    e=(int(input("Enter the person in:")))
+    E.append(e)
+    p+=e
+    while True:
+        f=(int(input("Enter the person out:")))
+        if e>=f:
+            L.append(f)
+            p-=f
+            break
+        else:
+            print("The number of person leaving exceeded")
+    
+    print("No of persons in",i+1,"th hour is:",p)
+    total+=p
+print("Time in:",E)
+print("Time out:",L)
+print("Average number of student at",t,"time is",total//t)
